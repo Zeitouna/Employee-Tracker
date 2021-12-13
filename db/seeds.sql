@@ -5,7 +5,7 @@ VALUES ("Sales"),
        ("Legal");
 
 -- Role seeds
-INSERT INTO role_title (title, salary, department_id)
+INSERT INTO role (title, salary, department_id)
 VALUES  ("Lead Engineer", 150000, 2),
         ("Legal Team Lead", 250000, 4),
         ("Accountant", 125000, 3),
@@ -26,5 +26,5 @@ VALUES  ("Alonso", "Fernandes", null, 1);
 
 -- Selecting for creating tables in sql
 SELECT * FROM department;
-SELECT * FROM role_title;
+SELECT * FROM role;
 SELECT * FROM employee;

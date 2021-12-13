@@ -6,7 +6,7 @@ const cTable = require('console.table');
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
-    database: "employees",
+    database: "employee_db",
   });
   module.exports = db;
 
@@ -22,7 +22,7 @@ const showMainMenu = () => {
           name: "choice",
           choices: [
             {
-              name: "View all employees employees",
+              name: "View all employees",
               value: 1,
             },
             {
